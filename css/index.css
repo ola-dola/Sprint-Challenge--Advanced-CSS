@@ -240,6 +240,19 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  display: inline;
+  font-size: 2rem;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #343434;
+  color: white;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: white;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;

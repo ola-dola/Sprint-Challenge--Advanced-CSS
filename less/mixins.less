@@ -1,1 +1,17 @@
 // Mixins Here
+.btn(@color1, @color2) {
+    display: inline;
+    font-size: 2rem;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: @color1;
+    color: @color2;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: @color2;
+      color: @color2;
+    }
+  }
+
+ 
