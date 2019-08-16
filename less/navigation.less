@@ -11,7 +11,8 @@
 
     h1 {
         font-size: 3.5rem;
-        padding: 1.5rem;
+        // padding: auto;
+        text-overflow: ellipsis;
     }
 
     nav {
@@ -28,8 +29,17 @@
     @media @phone {
        width: 100%;
        h1 {
-           font-size: 1.5rem;
-           
-       }
+           font-size: 3.5rem;
+        }
+
+       nav {
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+        }
+
+        a {
+            padding-left: 2px;
+        }
     }
 }

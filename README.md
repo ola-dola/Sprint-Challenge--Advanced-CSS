@@ -42,12 +42,14 @@ A: In mobile first designs, the base code is written for mobile viewports and me
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+A: 
 
 4. How would you describe preprocessing to someone new to CSS?
 
 A: Preprocessing is the use of programs known as preprocessors to organise our CSS code to make them more readable and    easier to maintain.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 A: Ability to create and use variables is my favourite concept. Mixins give me the most trouble. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
