@@ -165,7 +165,7 @@ p {
   margin: 0 auto;
   border: transparent;
   border-radius: 3px;
-  background-color: lightgrey;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
