@@ -1,1 +1,45 @@
 // Navigation code here
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    color: @nav-font;
+    border: transparent;
+    border-radius: 3px;
+    background-color:  @nav-bg;
+    .center-flex();
+
+    h1 {
+        font-size: 3.5rem;
+        // padding: auto;
+        text-overflow: ellipsis;
+    }
+
+    nav {
+        padding-bottom: 2.5rem;
+
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: #000;
+            padding: 2.0rem;
+        }
+    }
+
+    @media @phone {
+       width: 100%;
+       h1 {
+           font-size: 3.5rem;
+        }
+
+       nav {
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+        }
+
+        a {
+            padding-left: 2px;
+        }
+    }
+}
